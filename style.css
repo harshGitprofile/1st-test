@@ -1,0 +1,197 @@
+*{
+
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+
+    background-color: #4BC0D9;
+    text-align: center;
+ 
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.game{
+    justify-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 15px;
+
+
+
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    color: chocolate;
+    background-color: #e6f4ea;
+    font: bolder 3rem ;
+
+   
+    
+}
+
+.reset{
+    padding: 1rem ;
+    font-size: 1.5rem;
+    background-color: #FF6F61;
+    border-radius:1rem;
+    border: none;
+    color: white;
+
+}
+
+#new-game{
+    padding: 1rem ;
+    font-size: 1.5rem;
+    background-color: #FF6F61;
+    border-radius:1rem;
+    border: none;
+    color: white;
+
+}
+
+
+#msg
+{
+    font-family: futura;
+   font-size:8vmin;
+   color:brown;
+   font-weight: bold;
+
+}
+
+.msg-container{
+    height: 30vmin;
+    
+}
+
+.hide {
+    display: none;
+}
+
+
+.developer-info
+{ 
+  position: fixed;
+  bottom: 20px; /* distance from the bottom */
+  right: 20px;  /* distance from the right */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.msgg{
+    font-family: futura;
+   font-size:2vmin;
+   color:rgb(175, 74, 74);
+   font-weight: bold;
+
+}
+
+.msgg{
+    display:none;
+}
+
+
+
+/*mobile screen fit css*/
+/*mobile screen fit css*/
+/*mobile screen fit css*/
+/*mobile screen fit css*/
+
+@media only screen and (max-width: 600px) {
+    .game {
+        height: 80vmin;
+        width: 80vmin;
+    }
+    .box {
+        height: 20vmin;
+        width: 20vmin;
+        font-size: 5vw;
+    }
+    #msg {
+        font-size: 5vw;
+    }
+    .reset, #new-game {
+        font-size: 4vw;
+    }
+    .developer-info {
+        font-size: 3vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile screen fit css*/
+/*mobile screen fit css*/
